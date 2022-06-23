@@ -258,15 +258,15 @@ Once A3 authentication is successful, 64 bit cipher key is generated for encrypt
 
 Once A3 authentication is successful, 64 bit cipher key is generated for encryption/decryption purpose using A8 algorithm
 
-<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/A5algo1.jpg" width ="400" height = "400"></img>
+<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/A5algo1.jpg"></img>
 
 Displays the encrypted result of user text based on A5 algorithm.
 
-<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/A5algo1.jpg" width ="400" height = "400"></img>
+<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/A5algo1.jpg"></img>
 
  Displays the decrypted result of cipher text based on A5 algorithm.
  
-<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/a5algo2.jpg" width ="400" height = "400"></img>
+<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/a5algo2.jpg"></img>
  There are two possible scenarios:
 • User password is leaked
 • User password is not leaked
@@ -303,8 +303,8 @@ input are shown in Fig
 
 ## Conclusion
 Even though all people are not victims of cyber crimes,they are also at high risk.Crimes
-not always occur by physically visiting that place,nowadays it is done with the help of computer.As the technology is increasing criminals don’t have to go outside to commit crime,nor
-they have to rob banks going out.They have everything they need in a single device like computer,laptops,mobile etc. They dont use guns nowadays but digital devices.
+not always occur by physically visiting that place,nowadays it is done with the help of computer.As the technology is increasing criminals don’t have to go outside to commit crime,nor
+they have to rob banks going out.They have everything they need in a single device like computer,laptops,mobile etc. They dont use guns nowadays but digital devices.
 Cyber threats are a big deal. Cyberpace has grown worldwide. India has also seen a sharp
 rise in internet activity. A cyber attack uses malicious code to convert computer code, logic
 or data, resulting in unsafe data effects that can disrupt data and lead to cyber crimes, such as
