@@ -40,3 +40,67 @@ Mobile devices being portable, multi-functional etc, the number of cell phone us
 ever increasing. Thus there is a great need of mobile security. Taking into consideration these
 points, a system will be developed to make it easier for the users to detect different threats and
 efficiently avoid those risks.
+
+<img src = "https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/Threat-Protect-Cyber-Security-Framework.png"  width = "300" height = "300"></img>
+ NIST Framework Architecture
+ 
+ 1. Identify:  Our system should identify the type of attack and what harm it will cause to our
+system. Identify is first function of the framework. It helps organizations to develop
+a better understanding on how to manage risks associated with the cyber threats.
+
+ 2. Protect:  The protect functions helps to reduce the impact of the cyber attack by incorporating
+the best security practices for data protection and overall system protection.
+ 3. Detect: The Detect Function attempts to identify the presence of a cyber attack. It performs detection at regular intervals. It pre-defines a set of protocols to be followed in order to detect the presence of
+attack.
+ 4. Respond:  The respond function is a series of actions to performed after successful detection
+of a cyber attack in an attempt to successfully mitigate the attack.
+ 5. Recover: t is set of steps to be followed in order restore any and all activities, services and
+capabilities damaged or affected by the attack.
+
+## IMSI Attack
+
+Mobile communications cannot be trusted completely. The basic ideology behind the cellular network is that, the mobile device sends an authentication request to the nearby mobile
+towers providing the strongest signal for communication. IMSI stands for International Mobile
+Subscriber Identity. The IMSI catcher device is one of the most effective threats capable of compromising the security of communication by compromising user privacy.Each sim has a unique
+IMSI number comprising of Mobile Network Code (MNC), Mobile country code (MCC) and
+Mobile subscriber identity (MSI).
+Within a geographical area, multiple mobile towers are present. Since the mobile device
+move within a geographical area, it keeps on reconnecting to a new mobile station which provides a better signal. An authentication protocol is followed before any mobile device is granted
+access to connect to a mobile tower. The device sends its IMSI number to the base station for
+authentication. After executing security algorithms and authenticating the device, it is granted
+connection to the base station.
+
+<img src = "https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/imsi.png"  width = "300" height = "300"></img>
+
+The attacker acts as fake base station for the mobile device. This results in the device sending
+its IMSI number to the attacker instead of base station. The attacker captures the IMSI number.
+Now the attacker acts as a fake mobile device and authenticates itself using the captured IMSI
+number. Once authenticated attacker performs man in the middle attack and captures each and
+every data packet thus proving to be a threat to user privacy. The attacker can eavesdrop on
+calls and record them, sniff SMS messages to redirect them, track location of the user, retrieve
+data from the target phone such as pictures, document etc. The proposed framework captures
+the current location using Loaction Id(LAC) provided by OpenCellId. It stores a database of
+all the present cell towers in that location. During it authentication, it checks whether the same
+cell towers are present or not. Based on the detected information, it further authenticates or
+terminates the connection request.
+
+<img src = "https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/IMSIflowchart.jpg"></img>
+
+Each mobile device needs to connect to a base station in order provide cellular network to
+the user. Therefore the proposed algorithm as shown in Figure 3.3 performs a series of steps
+before the connection is granted in order to eliminate the threat of IMSI attack.
+An open cellular data set from OpenCelliD was used which contained all the necessary Information such as Location Id(LAC), Mobile Country Code(MCC), Mobile Network Code(MNC),
+Cell-Tower Id(CID), type of network etc. Based on this data set a new data set was derived
+consisting of the LAC and sum of CID for that particular LAC. Each time a device request a
+connection to a base station:
+
+• The current location of the device is captured.
+• The sum of CID for that LAC is calculated.
+• The value is matched with sum stored in the database.
+
+Only if the values match, GSM algorithms(A3,A5,A8) algorithms are performed for further
+authentication and privacy. If the values do not match, the request to connect to a new base
+station is terminated based on the possibility of an attacker trying to perform IMSI attack.
+
+## Identity Theft Attack
+
