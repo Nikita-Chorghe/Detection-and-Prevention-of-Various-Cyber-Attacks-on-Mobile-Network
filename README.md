@@ -258,15 +258,15 @@ Once A3 authentication is successful, 64 bit cipher key is generated for encrypt
 
 Once A3 authentication is successful, 64 bit cipher key is generated for encryption/decryption purpose using A8 algorithm
 
-<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/A5algo1.jpg"></img>
+<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/A5algo1.jpg" width ="400" height = "400"></img>
 
 Displays the encrypted result of user text based on A5 algorithm.
 
-<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/A5algo1.jpg"></img>
+<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/A5algo1.jpg" width ="400" height = "400"></img>
 
  Displays the decrypted result of cipher text based on A5 algorithm.
  
-<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/a5algo2.jpg"></img>
+<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/a5algo2.jpg" width ="400" height = "400"></img>
  There are two possible scenarios:
 • User password is leaked
 • User password is not leaked
@@ -276,18 +276,18 @@ phones, many SMiShing messages claim to be coming from a financial institution. 
 tend to not think twice before acting. Attackers always use legalized sounding
 language and even some branding to assist their pretext.
 
-<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/inputmsg1.png"></img>
+<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/inputmsg1.png" width ="400" height = "400"></img>
 
 Nowadays,most of the users are conducting banking transactions through smart
 phones, many SMiShing messages claim to be coming from a financial institution. Whenever the messaged is received from their bank,many of the users
 tend to not think twice before acting. Attackers always use legalized sounding
 language and even some branding to assist their pretext.
 
-<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/inputmsg2.png"></img>
+<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/inputmsg2.png" width ="400" height = "400"></img>
 
 shows another example of a Smishing attack.
 
-<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/mainpagesmishing.png"></img>
+<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/mainpagesmishing.png" width ="400" height = "400"></img>
 
 URLs of websites are separated into 3 classes as shown in Fig:
 • Benign(SAFE): Safe websites with normal services
@@ -299,9 +299,9 @@ on your system,gather sensitive information, or gain access to private computer 
 Some of the features extracted by the system for every website we give as
 input are shown in Fig
 
-<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/finalresult3.png"></img>
+<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/finalresult3.png" width ="400" height = "400"></img>
 
-
+## Conclusion
 Even though all people are not victims of cyber crimes,they are also at high risk.Crimes
 not always occur by physically visiting that place,nowadays it is done with the help of computer.As the technology is increasing criminals don’t have to go outside to commit crime,nor
 they have to rob banks going out.They have everything they need in a single device like computer,laptops,mobile etc. They dont use guns nowadays but digital devices.
