@@ -41,7 +41,7 @@ ever increasing. Thus there is a great need of mobile security. Taking into cons
 points, a system will be developed to make it easier for the users to detect different threats and
 efficiently avoid those risks.
 
-<img src = "https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/Threat-Protect-Cyber-Security-Framework.png"  width = "300" height = "300"></img>
+<img src = "https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/Threat-Protect-Cyber-Security-Framework.png" class="center"  width = "300" height = "300"></img>
  NIST Framework Architecture
  
  1. Identify:  Our system should identify the type of attack and what harm it will cause to our
