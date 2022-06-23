@@ -104,3 +104,46 @@ station is terminated based on the possibility of an attacker trying to perform 
 
 ## Identity Theft Attack
 
+Identity theft is a misdeed in which masquerader steals the information from a legitimate user
+and use that information to impersonate someone. Your passwords are stored in system using
+special algorithms known as hashing , Hackers try to access that file from system. Most of the
+time password is kept for important files. Leading to the immediate impact of certain significant
+losses such as cash and debt securities, individual victims of identity theft can have significant
+intangible costs, including damaging their reputation and credit report, which could prevent
+them from getting a loan or even getting a job. Depending on the circumstances, identity theft
+can take years to recover.
+The businesses of their employees have become an enemy to steal their identity and face significant costs associated with credibility and trust. Once the business’s reputation has been damaged, it is necessary for that business to be able to use it through additional security measures
+to assure customers that it will not do so again. It’s necessary to know whether the password
+has been hacked or not.
+
+<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/idtheft.jpg"></img>
+
+A cyber-attack is a deliberate attempt to exploit hardware/software vulnerabilities and to
+capture, store, alter, misuse private data for personal gains. It is done with the help malicious
+scripts, alter the software code or introduce backdoor traps, worms, viruses in system and retrieve sensitive information which may lead to identity theft. Users also use mobile as a means
+of online transaction, storing financial information and passwords which makes it important to
+secure the network over which communication is done.
+System can be used to detect such attacks and thus mitigate such threats and secure user
+data.We have developed a hacked password checker(an example shown in Fig 3.6), which will
+work as an alert system for users. It will check whether the password has been hacked or not. It examines the password and if that password matches the list of passwords that have leaked then
+we will report to the user.
+
+<img src="https://github.com/Nikita-Chorghe/Detection-and-Prevention-of-Various-Cyber-Attacks-on-Mobile-Network/blob/master/Images/theft.jpg"></img>
+
+ The database of the leaked
+passwords is created. The user enters his/her password. The system will check if that password
+matches the user entered password if that password matches then the user will be notified or
+else the user’s password is not leaked.
+
+Procedure : We have developed a hacked password checker, which will work as an alert
+system for users. It will check whether the passwords have been hacked or not. It examines the
+password and if that password matches the list of passwords that have been leaked, it will report
+to the user.
+1. A leak data set is being created. A new associated set of data is created when each leaked
+password is converted to hash value.That hash value is stored.
+2. The system takes an input from the user. The user enters his/her password. User entered
+password is converted into hash value.
+3. If that hash value matches with any one of the values from the file, that password is leaked.
+The system will notify the user that his/her password has been previously hacked.
+4. If the hash value does not match then the user-entered password is not leaked and can be
+safely used.
